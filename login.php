@@ -90,7 +90,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])) {
     $_SESSION['sess_user']=$email;
 
     /* Redirect browser */
-    header("Location: member.php");
+    header("Location: home.php");
     }
     } else {
     echo "Invalid username or password!";
